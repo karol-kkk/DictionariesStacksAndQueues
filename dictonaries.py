@@ -176,7 +176,7 @@ print(absent_students)
 emails_received = {"john@example.com", "spam1@example.com", "spam2@example.com", "jane@example.com"}
 spam_list = {"spam1@example.com", "spam2@example.com"}
 
-spam_emails = emails_received & spam_list  # Intersection
+spam_emails = emails_received & spam_list  # & returns common elements in both sets
 print("Spam emails:", spam_emails)
 
 # 2.5
